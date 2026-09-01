@@ -1,0 +1,67 @@
+﻿@using FixCompany.Entity.Command.entityRequest
+@using FixCompany.Entity.Domain.models
+@using MediatR
+@using Microsoft.AspNetCore.Components.Web
+@using MudBlazor
+@inject IMediator mediatr
+@inject IDialogService dialog
+@page "/entitys"
+<PageTitle>Редактирование клиентов</PageTitle>
+
+<MudStack>
+        <MudStack Row="true">
+            <MudText Typo="Typo.h6">Пользователи: @(_entities?.Count ?? 0)</MudText>
+            <MudSpacer/>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(OpenAddDialog)">Добавить</MudButton>
+        </MudStack>
+        @foreach (var item in _entities)
+        {
+            <MudPaper Elevation="3" Class="pa-3">
+                <MudGrid>
+                    <MudItem xs="10">
+                        <MudText>@($"{item.FirstName} {item.MiddleName} {item.LastName ?? string.Empty}")</MudText>
+                        <MudStack Row="true">
+                            @if (item.Role == null)
+                            {
+                                <MudChip T="string" Color="Color.Dark">Без роли</MudChip>
+                            }
+                            else
+                            {
+                                if (item.Role.Name == "Клиент")
+                                {
+                                    <MudChip T="string" Color="Color.Secondary">Клиент</MudChip>
+                                }
+                                else
+                                {
+                                    <MudChip T="string" Color="Color.Primary">Мастер</MudChip>
+                                }
+                            }
+                        </MudStack>
+                    </MudItem>
+                    <MudItem xs="2">
+                        <MudButton Color="Color.Primary" Variant="Variant.Filled">Изменить</MudButton>
+                    </MudItem>
+                </MudGrid>
+            </MudPaper>
+        }
+</MudStack>
+
+@code {
+    
+    private List<Entity> _entities = new List<Entity>();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var getAllRequest = new GetEntityRequest();
+        var result = await mediatr.Send(getAllRequest);
+        if(result.IsSuccess && result.Value.Any())
+            _entities.AddRange(result.Value);
+    }
+
+    private async Task OpenAddDialog()
+    {
+        var options = new DialogOptions(){CloseOnEscapeKey = true};
+        await dialog.ShowAsync<EntityDialog>("Create Entity",options);
+    }
+
+}

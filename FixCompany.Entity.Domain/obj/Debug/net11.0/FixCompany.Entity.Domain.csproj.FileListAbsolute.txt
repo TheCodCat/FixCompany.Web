@@ -1,0 +1,16 @@
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\bin\Debug\net11.0\FixCompany.Entity.Domain.deps.json
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\bin\Debug\net11.0\FixCompany.Entity.Domain.runtimeconfig.json
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\bin\Debug\net11.0\FixCompany.Entity.Domain.runtimeconfig.dev.json
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\bin\Debug\net11.0\FixCompany.Entity.Domain.dll
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\bin\Debug\net11.0\FixCompany.Entity.Domain.pdb
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.csproj.AssemblyReference.cache
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.AssemblyInfoInputs.cache
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.AssemblyInfo.cs
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.dll
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\refint\FixCompany.Entity.Domain.dll
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.pdb
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompany.Entity.Domain.genruntimeconfig.cache
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\ref\FixCompany.Entity.Domain.dll
+C:\Users\dimai\RiderProjects\FixCompany.Web\FixCompany.Entity.Domain\obj\Debug\net11.0\FixCompa.F2639A1C.Up2Date

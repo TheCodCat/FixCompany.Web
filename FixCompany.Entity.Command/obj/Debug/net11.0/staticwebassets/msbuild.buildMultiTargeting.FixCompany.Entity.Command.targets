@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FixCompany.Entity.Command.targets" />
+</Project>
