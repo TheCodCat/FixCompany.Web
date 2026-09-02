@@ -1,0 +1,10 @@
+﻿/FixCompany.Web/FixCompany.Web.csproj
+
+.vs/
+bin/
+obj/
+*.user
+artifacts/
+.vscode/
+.dotnet/
+*.binlog
